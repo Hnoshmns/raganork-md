@@ -2,4 +2,4 @@ build:
   docker:
       worker: /lib/Dockerfile
 run:
-   worker: rm -rf node_modules && npm install && npm start
+   worker: npm start
